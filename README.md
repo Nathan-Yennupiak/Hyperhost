@@ -1,4 +1,4 @@
-# Landing Page Project
+# Hyperhost Landing Page
 
 This repository contains the source code for a responsive landing page built using HTML, Tailwind CSS, and JavaScript. The landing page is designed to be visually appealing and functional across different devices, leveraging the power of Tailwind CSS for styling and modern JavaScript for interactivity.
 
