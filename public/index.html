@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HyperHost</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-gray-100 overflow-x-hidden overflow-y-auto">
+    <div class="min-h-screen flex flex-col px-16 py-6 gap-16">
+        <!--Header starts-->
+        <header class="border-b-2 border-gray-200 pb-4">
+           <div class="flex items-center justify-between ">
+             <!--Nav-Logo-->
+             <div class="flex items-center gap-6">
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-server gradient_green text-2xl"></i>
+                <p class="font-plafair font-bold text-lg">HyperHost</p>
+                </div>
+                <button class="text-white gradient_btn2 rounded-3xl px-3 py-2 font-medium font-lato text-xs">We are hiring</button>
+            </div>
+
+            <!--Desktop Navigation-->
+            <ul class="hidden lg:flex items-center justify-center gap-6">
+                <li><a href="#" class="text_hover transition duration-500 ease-in-out">Features</a></li>
+                <li><a href="#" class="text_hover transition duration-500 ease-in-out">Pricing</a></li>
+                <li><a href="#" class="text_hover transition duration-500 ease-in-out">Get a domain</a></li>
+                <li><a href="#" class="text_hover transition duration-500 ease-in-out">Email service</a></li>
+            </ul>
+
+            <div class="hidden lg:flex gap-4 items-center">
+                <a href="#" class="text_hover">Sign In</a>
+                <a href="#" class="gradient_btn px-4 py-2 rounded-lg text-white font-lato font-medium">Join wailist</a>
+            </div>
+
+            
+
+            <!--Toggle Button-->
+            <div id="menu-toggle" class="lg:hidden">
+                <i class="fas fa-bars-staggered text-2xl"></i>
+            </div>
+           </div>
+
+            <!--Mobile Navigation-->
+        <div>
+            <ul id="menu" class="hidden flex-col gap-4 px-4 py-6 absolute right-0 mt-4 w-60 bg-gray-50 border border-gray-200 rounded-lg shadow-sm">
+                <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-green-700 hover:text-white transition duration-500 ease-in-out">Features</a></li>
+                <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-green-700 hover:text-white transition duration-500 ease-in-out">Pricing</a></li>
+                <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-green-700 hover:text-white transition duration-500 ease-in-out">Get a domain</a></li>
+                <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-green-700 hover:text-white transition duration-500 ease-in-out">Email service</a></li>
+                <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-green-700 hover:text-white transition duration-500 ease-in-out mb-2">Sign In</a></li>
+                <li><a href="#" class="gradient_btn block px-4 py-2 rounded-lg text-white font-lato font-medium">Join wailist</a></li>
+                    
+                    
+            </ul>
+            </ul>
+        </div>
+
+        </header>
+        <!--Header ends-->
+
+       
+        
+
+        <!--Hero section-->
+        <section class="flex flex-col lg:flex-row">
+            <div class="flex-1 order-2">
+                <img src="assets/server.png" alt="" class="h-auto">
+            </div>
+
+            <div class=" flex flex-col flex-1 gap-6 order-1">
+                <h1 class=" font-plafair font-bold leading-tight text-5xl gradient_green">Go live swiftly with AI-Powered Hosting.</h1>
+                <p class=" text-gray-500">Launch your website in just 5 minutes with our AI-driven hosting platform. Enjoy unbeatable prices, seamless integration, and effortless scaling, all backed by 24/7 support to keep your site performing at its best.</p>
+
+                <form action="" class="flex flex-col gap-2">
+                    <input type="email" placeholder="Enter email address" class="border-2 border-gray-200 p-2 text-gray-500"/>
+                    <button class="gradient_btn px-4 py-2 rounded-lg text-white font-lato font-medium">Join wailist</button>
+                </form>
+                <div class="flex gap-2">
+                    <img src="assets/Checkmark.svg" alt="">
+                    <p class="font-lato text-gray-500">No spam. Unsubscribe anytime.</p>
+                </div>
+            </div>
+            
+        </section>
+
+        <!--Footer section-->
+
+        <section class="flex flex-col border-t-2 border-gray-200 pt-4 gap-12 lg:flex-row lg:justify-between">
+           
+            <!--Social Icons-->
+            <div class="flex flex-col gap-2 justify-between text-white lg:flex-row lg:items-center">
+                <div class="font-plafair font-bold text-gray-800 text-2xl">Follow us on Socila media</div>
+                <div class="flex items-center gap-2 px-3 py-2 bg-blue-600 rounded-full">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <p>Facebook</p>
+                </div>
+                <div class="flex items-center gap-2 px-3 py-2 rounded-full bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045]">
+                    <i class="fab fa-instagram"></i>
+                    <p class="ml-2">Instagram</p>
+                </div>
+                
+                <div class="flex items-center gap-2 px-4 py-2 bg-blue-400 rounded-full">
+                    <i class="fab fa-twitter"></i>
+                    <p>Twitter</p>
+                </div>
+            </div>
+
+            <!--Enquiries-->
+            <div class="flex gap-4">
+                <div>
+                    <img src="assets/Help Avatar.svg" alt="">
+                </div>
+                <div>
+                    <p class="font-plafair">Have any questions?</p>
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-phone text-green-600"></i>
+                        <p class="font-lato font-medium">Talk to a specialist</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
