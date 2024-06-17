@@ -763,6 +763,11 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .pb-4{
   padding-bottom: 1rem;
 }
@@ -957,5 +962,10 @@ video {
 
   .lg\:justify-between{
     justify-content: space-between;
+  }
+
+  .lg\:px-16{
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 }
