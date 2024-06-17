@@ -6,6 +6,7 @@
     <title>HyperHost</title>
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="assets/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="assets/css/font-awesome.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="bg-gray-100 overflow-x-hidden overflow-y-auto">
@@ -65,9 +66,9 @@
         
 
         <!--Hero section-->
-        <section class="flex flex-col lg:flex-row">
-            <div class="flex-1 order-2">
-                <img src="assets/server.png" alt="" class="h-auto">
+        <section class="flex gap-6 flex-col lg:flex-row">
+            <div class="flex-1 order-2 gradient_btn p-2 rounded-3xl">
+                <img src="assets/server.png" alt="server" class="h-auto">
             </div>
 
             <div class=" flex flex-col flex-1 gap-6 order-1">
@@ -93,19 +94,26 @@
             <!--Social Icons-->
             <div class="flex flex-col gap-2 justify-between text-white lg:flex-row lg:items-center">
                 <div class="font-plafair font-bold text-gray-800 text-2xl">Follow us on Socila media</div>
-                <div class="flex items-center gap-2 px-3 py-2 bg-blue-600 rounded-full">
+                <a href="#">
+                    <div class="flex items-center gap-2 px-3 py-2 bg-blue-600 rounded-full">
                     <i class="fa-brands fa-facebook-f"></i>
                     <p>Facebook</p>
                 </div>
-                <div class="flex items-center gap-2 px-3 py-2 rounded-full bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045]">
-                    <i class="fab fa-instagram"></i>
-                    <p class="ml-2">Instagram</p>
-                </div>
+            </a>
+                <a href="#">
+                    <div class="flex items-center gap-2 px-3 py-2 rounded-full bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045]">
+                        <i class="fab fa-instagram"></i>
+                        <p class="ml-2">Instagram</p>
+                    </div>
+                </a>
                 
-                <div class="flex items-center gap-2 px-4 py-2 bg-blue-400 rounded-full">
-                    <i class="fab fa-twitter"></i>
-                    <p>Twitter</p>
-                </div>
+                <a href="#">
+                    <div class="flex items-center gap-2 px-4 py-2 bg-blue-400 rounded-full">
+                        <i class="fab fa-twitter"></i>
+                        <p>Twitter</p>
+                    </div>
+                </a>
+
             </div>
 
             <!--Enquiries-->
