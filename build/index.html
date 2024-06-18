@@ -12,7 +12,7 @@
 <body class="bg-gray-100 overflow-x-hidden overflow-y-auto">
     <div class="min-h-screen flex flex-col px-6 lg:px-16 py-6 gap-16">
         <!--Header starts-->
-        <header class="border-b-2 border-gray-200 pb-4">
+        <header class="border-b-2 border-blue-800 pb-4">
            <div class="flex items-center justify-between ">
              <!--Nav-Logo-->
              <div class="flex items-center gap-6">
@@ -20,15 +20,15 @@
                     <i class="fas fa-server gradient_green text-2xl"></i>
                 <p class="font-plafair font-bold text-lg">HyperHost</p>
                 </div>
-                <button class="text-white gradient_btn2 rounded-3xl px-3 py-2 font-medium font-lato text-xs">We are hiring</button>
+                <button class="text-white gradient_btn2 rounded-3xl px-4 py-2 font-medium font-lato text-xs">We are hiring</button>
             </div>
 
             <!--Desktop Navigation-->
-            <ul class="hidden lg:flex items-center justify-center gap-6">
-                <li><a href="#" class="text_hover transition duration-500 ease-in-out">Features</a></li>
-                <li><a href="#" class="text_hover transition duration-500 ease-in-out">Pricing</a></li>
-                <li><a href="#" class="text_hover transition duration-500 ease-in-out">Get a domain</a></li>
-                <li><a href="#" class="text_hover transition duration-500 ease-in-out">Email service</a></li>
+            <ul class="hidden lg:flex items-center justify-center gap-6 text-gray-800">
+                <li><a href="#" class="text_hover transition duration-500 px-2 py-2 hover:rounded-md ease-in-out">Features</a></li>
+                <li><a href="#" class="text_hover transition duration-500 px-2 py-2 hover:rounded-md ease-in-out">Pricing</a></li>
+                <li><a href="#" class="text_hover transition duration-500 px-2 py-2 hover:rounded-md ease-in-out">Get a domain</a></li>
+                <li><a href="#" class="text_hover transition duration-500 py-2 hover:rounded-md ease-in-out">Email service</a></li>
             </ul>
 
             <div class="hidden lg:flex gap-4 items-center">
@@ -52,9 +52,7 @@
                 <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-green-700 hover:text-white transition duration-500 ease-in-out">Get a domain</a></li>
                 <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-green-700 hover:text-white transition duration-500 ease-in-out">Email service</a></li>
                 <li><a href="#" class="block px-4 py-2 text-gray-800 hover:bg-green-700 hover:text-white transition duration-500 ease-in-out mb-2">Sign In</a></li>
-                <li><a href="#" class="gradient_btn block px-4 py-2 rounded-lg text-white font-lato font-medium">Join wailist</a></li>
-                    
-                    
+                <li><a href="#" class="gradient_btn block px-4 py-2 rounded-lg text-white font-lato font-medium">Join wailist</a></li> 
             </ul>
             </ul>
         </div>
@@ -63,12 +61,10 @@
         <!--Header ends-->
 
        
-        
-
         <!--Hero section-->
         <section class="flex gap-6 flex-col lg:flex-row">
-            <div class="flex-1 order-2 gradient_btn p-2 rounded-3xl">
-                <img src="assets/server.png" alt="server" class="h-auto w-full">
+            <div class="flex-1 order-2 gradient_btn p-2 rounded-2xl">
+                <img src="assets/server.png" alt="server" class="h-auto max-w-full">
             </div>
 
             <div class=" flex flex-col flex-1 gap-6 order-1">
@@ -89,26 +85,31 @@
 
         <!--Footer section-->
 
-        <section class="flex flex-col border-t-2 border-gray-200 pt-4 gap-12 lg:flex-row lg:justify-between">
+        <section class="flex flex-col border-t-2 border-b-2 py-4 border-gray-200 pt-4 gap-6 lg:gap-12 lg:flex-row lg:justify-between lg:items-center">
            
             <!--Social Icons-->
-            <div class="flex flex-col gap-2 justify-between text-white lg:flex-row lg:items-center">
-                <div class="font-plafair font-bold text-gray-800 text-2xl">Follow us on Socila media</div>
+            <div class="font-plafair font-bold text-gray-800 text-2xl ">Follow us on Social media</div>
+            <div class="flex gap-2 justify-start text-white lg:flex-row lg:items-center py-2">
+
+                <!--Facebook-->
                 <a href="#">
-                    <div class="flex items-center gap-2 px-3 py-2 bg-blue-600 rounded-full">
+                    <div class="flex items-center gap-2 justify-center px-3 py-2 bg-blue-600 rounded-full">
                     <i class="fa-brands fa-facebook-f"></i>
                     <p>Facebook</p>
                 </div>
             </a>
+
+            <!--Instagram-->
                 <a href="#">
-                    <div class="flex items-center gap-2 px-3 py-2 rounded-full bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045]">
+                    <div class="flex items-center justify-center px-3 py-2 rounded-full bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045]">
                         <i class="fab fa-instagram"></i>
                         <p class="ml-2">Instagram</p>
                     </div>
                 </a>
                 
+                <!--Twitter-->
                 <a href="#">
-                    <div class="flex items-center gap-2 px-4 py-2 bg-blue-400 rounded-full">
+                    <div class="flex items-center gap-2 justify-center px-4 py-2 rounded-full bg-blue-400">
                         <i class="fab fa-twitter"></i>
                         <p>Twitter</p>
                     </div>
@@ -117,17 +118,23 @@
             </div>
 
             <!--Enquiries-->
-            <div class="flex gap-4">
+            <div class="flex gap-4 border-t-2 py-2 border-gray-200 ">
                 <div>
                     <img src="assets/Help Avatar.svg" alt="">
                 </div>
                 <div>
-                    <p class="font-plafair">Have any questions?</p>
+                    <p class="font-plafair text-lg font-bold">Have any questions?</p>
                     <div class="flex items-center gap-2">
                         <i class="fa-solid fa-phone text-green-600"></i>
-                        <p class="font-lato font-medium">Talk to a specialist</p>
+                        <p class="font-lato font-medium text-gray-500">Talk to a specialist</p>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="flex justify-center items-center -mt-8 bg-green-800 py-5 rounded-md px-4">
+                <p class="font-lato text-white text-sm">© 2024 Hyperhost™ is a registered trademark. All Rights Reserved.</p>
             </div>
         </section>
 
